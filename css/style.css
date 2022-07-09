@@ -17,17 +17,18 @@
     position: absolute;
     bottom: 0%;
     width: 60px;
-    right: 0%;
+    right: -60px;
+    animation: pipe-animation 2s infinite linear;
 }
 
-@keyframes pipe-animation{
+@keyframes pipe-animation {
     from{
+        right: -60px;
 
     }
 
-
-    
     to{
+        right: 100%;
 
     }
 }
