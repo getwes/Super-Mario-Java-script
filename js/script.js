@@ -1,7 +1,8 @@
  const mario = document.querryselector('.mario');
 
  const jump = () => {
-    
+    mario.classList.add('jump');
+
  }
  
  
